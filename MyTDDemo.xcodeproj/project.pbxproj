@@ -280,6 +280,8 @@
 		CB5A75C6184CCC14005B7B87 /* libwebsockets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB5A75C5184CCC14005B7B87 /* libwebsockets.a */; };
 		CB5A75CC184CCC14005B7B87 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB5A75CB184CCC14005B7B87 /* AppDelegate.cpp */; };
 		CB5A75CF184CCC14005B7B87 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB5A75CE184CCC14005B7B87 /* HelloWorldScene.cpp */; };
+		CB5A75D7184CCC7A005B7B87 /* GameWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB5A75D5184CCC7A005B7B87 /* GameWorldScene.cpp */; };
+		CB5A75D9184CCD38005B7B87 /* res in Resources */ = {isa = PBXBuildFile; fileRef = CB5A75D8184CCD38005B7B87 /* res */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -873,6 +875,9 @@
 		CB5A75CB184CCC14005B7B87 /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		CB5A75CD184CCC14005B7B87 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		CB5A75CE184CCC14005B7B87 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
+		CB5A75D5184CCC7A005B7B87 /* GameWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameWorldScene.cpp; path = Classes/GameWorldScene.cpp; sourceTree = "<group>"; };
+		CB5A75D6184CCC7A005B7B87 /* GameWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameWorldScene.h; path = Classes/GameWorldScene.h; sourceTree = "<group>"; };
+		CB5A75D8184CCD38005B7B87 /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; name = res; path = Resources/res; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -944,6 +949,7 @@
 		CB5A7239184CCC0F005B7B87 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CB5A75D8184CCD38005B7B87 /* res */,
 				CB5A723A184CCC0F005B7B87 /* CloseNormal.png */,
 				CB5A723C184CCC0F005B7B87 /* CloseSelected.png */,
 				CB5A723E184CCC0F005B7B87 /* Default.png */,
@@ -2093,6 +2099,8 @@
 		CB5A75C9184CCC14005B7B87 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				CB5A75D5184CCC7A005B7B87 /* GameWorldScene.cpp */,
+				CB5A75D6184CCC7A005B7B87 /* GameWorldScene.h */,
 				CB5A75CA184CCC14005B7B87 /* AppDelegate.h */,
 				CB5A75CB184CCC14005B7B87 /* AppDelegate.cpp */,
 				CB5A75CD184CCC14005B7B87 /* HelloWorldScene.h */,
@@ -2164,6 +2172,7 @@
 				CB5A724F184CCC0F005B7B87 /* iTunesArtwork in Resources */,
 				CB5A72EE184CCC10005B7B87 /* ChangeLog in Resources */,
 				CB5A7462184CCC12005B7B87 /* project.pbxproj in Resources */,
+				CB5A75D9184CCD38005B7B87 /* res in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2423,6 +2432,7 @@
 				CB5A75BE184CCC14005B7B87 /* cpVect.c in Sources */,
 				CB5A75CC184CCC14005B7B87 /* AppDelegate.cpp in Sources */,
 				CB5A75CF184CCC14005B7B87 /* HelloWorldScene.cpp in Sources */,
+				CB5A75D7184CCC7A005B7B87 /* GameWorldScene.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
